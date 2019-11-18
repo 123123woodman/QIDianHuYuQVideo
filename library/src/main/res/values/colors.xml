@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="balck">#000000</color>
+    <color name="green">#1AFD9C</color>
+    <color name="yellow">#F9F000</color>
+    <color name="orange">#FF8F59</color>
+    <color name="purple">#921AFF</color>
+    <color name="pink">#F3BBC6</color>
+    <color name="red">#FF3300</color>
+    <color name="deeppink">#FF1493</color>//深红色
+    <color name="fuchsia">#FF00FF</color>//紫红色
+    <color name="lavender">#E6E6FA</color>//薰衣草色
+    <color name="cyan">#00FFFF</color>//青色
+    <color name="auqamarin">#7FFFAA</color>//碧绿
+    <color name="chartreuse">#7FFF00</color>//查特酒绿
+    <color name="gold">#FFD700</color>//金
+    <color name="orangeRed">#FF4500</color>//橙红色
+    <color name="gray">#CCCCCC</color>
+
+</resources>

@@ -1,0 +1,3 @@
+D:/worksapce/new/9.14/QIDianHuYuQVideo/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/native-lib.dir
+D:/worksapce/new/9.14/QIDianHuYuQVideo/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/edit_cache.dir
+D:/worksapce/new/9.14/QIDianHuYuQVideo/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/rebuild_cache.dir

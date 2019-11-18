@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">library</string>
+    <string name="toast_error_network">网络异常</string>
+    <string name="toast_error_server">服务器异常</string>
+    <string name="toast_error_unknown">未知异常</string>
+
+    <string name="loginactivity_hint">想啥呢你登录了吗，瞎看</string>
+    <string name="loginactivity_login">登录</string>
+    <string name="loginactivity_register">注册</string>
+    <string name="loginactivity_account_hint">账号</string>
+    <string name="loginactivity_password_hint">密码</string>
+
+    <string name="map_notification_distance">0.0公里</string>
+    <string name="lover_tree">IoverTree</string>
+
+    <string name="notifyTitle">提示</string>
+    <string name="notifyMsg">当前应用缺少必要权限。\n\n请点击\"设置\"-\"权限\"-打开所需权限。</string>
+    <string name="setting">设置</string>
+    <string name="cancel">取消</string>
+
+    //玩蛋趣
+
+    <string name="qidian">起点互娱</string>
+    <string name="tuijian">推荐</string>
+    <string name="quanbu">全部</string>
+    <string name="xinpin">新品</string>
+    <string name="manghe">潮玩盲盒</string>
+    <string name="hedan">扭蛋盒蛋</string>
+    <string name="mowan">模玩</string>
+    <string name="shouban">手办</string>
+    <string name="shejishiwanju">设计师玩具</string>
+
+    //起点互娱
+    <string name="qd_login">登录</string>
+    <string name="qd_wechat">微信</string>
+    <string name="qd_agreement">登陆表示同意</string>
+    <string name="qd_user_agreement">【用户协议】</string>
+    <string name="qd_user_and">和</string>
+    <string name="qd_user_privacy">【隐私政策】</string>
+</resources>

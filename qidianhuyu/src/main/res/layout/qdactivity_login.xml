@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.QdLoginActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="9dp"
+        android:layout_height="15dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="58.5dp"
+        android:background="@drawable/qidian_fanhui"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/qd_login"
+        android:textSize="@dimen/text_headline"
+        android:textColor="@color/black"
+        android:layout_marginTop="31dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+
+    <qd.com.qidianhuyu.widget.AccountInputView
+        android:id="@+id/loginactivity_account"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="62dp"/>
+
+    <qd.com.qidianhuyu.widget.PasswordInputView
+        android:id="@+id/loginactivity_password"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/loginactivity_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:text="123"
+        android:visibility="gone"/>
+
+    <qd.com.qidianhuyu.widget.SubmitView
+        android:id="@+id/loginactivity_phone_login"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="65dp"
+        android:background="@drawable/bg_solid_round_color_disable_radius"
+        android:gravity="center"
+        android:text="@string/qd_login"
+        android:textColor="@color/balck"
+        android:textSize="@dimen/text_content"
+        app:sv_bindEditText1="@+id/loginactivity_account"
+        app:sv_bindEditText2="@+id/loginactivity_password"/>
+
+    <ImageView
+        android:id="@+id/loginactivity_wechat_login"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/qidian_weixin"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/qd_wechat"
+        android:layout_marginTop="3dp"
+        android:layout_gravity="center"
+        android:textSize="@dimen/text_content"/>
+
+    <LinearLayout
+        android:id="@+id/loginactivit_agreement"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/qd_agreement"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/text_notes"/>
+        <TextView
+            android:id="@+id/loginactivit_user_agreement"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/qd_user_agreement"
+            android:textColor="@color/balck"
+            android:textSize="@dimen/text_notes"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/qd_user_and"
+            android:textSize="@dimen/text_notes"
+            android:textColor="@color/gray"/>
+        <TextView
+            android:id="@+id/loginactivit_user_privacy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/qd_user_privacy"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_notes"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>
